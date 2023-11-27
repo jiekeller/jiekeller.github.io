@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "More About Me",
+    "section": "",
+    "text": "I am an avid frisbee player and restarted the men’s team at Macalester. I am currently President of the ultimate team and spend many hours leading/organizing the team. Besides frisbee, I also enjoy playing basketball, volleyball and soccer in my free time.\n\n\n\nMe Playing Ultimate"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me: Professionally Speaking",
+    "section": "",
+    "text": "I’m Jack, a senior Computer Science major at Macalester College. I hope to gain professional experience with my Computer Science degree and am looking for a software related position upon graduating in May 2024. I am also passionate about my Chinese studies and will graduate with a major in Chinese as well. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.\n\nQualifications\n\nLANGUAGES (ORDERED)\n\nStrong\nJava: Java Standard Library, data structures  Python: Pandas, NumPy, Matplotlib\n\n\nDecent\nJS: Game systems, Phaser3  C: For dedicated parallel programming\n\n\n\nTOOLS USED\nVSCode, PyCharm, Google Colab, Git, Linux/Bash\n\n\nMY INTERESTS / EXPERIENCE\nMachine Learning: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.\n\n\n\nDecision Tree Model with scikit-learn\n\n\nParallel Programming: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.\n\n\n\nTesting Data from Examining Different Scalability in Conway’s Game of Life\n\n\nChinese Language and Culture: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.\n\n\nTHE USUAL CS COURSEWORK\nCore Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.\n\n\nMY CODING ETHICS/ATTITUDE\nEnabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.\nTesting: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes."
+  }
+]

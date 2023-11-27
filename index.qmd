@@ -1,0 +1,43 @@
+---
+title: "About Me: Professionally Speaking"
+---
+I'm Jack, a senior Computer Science major at Macalester College. I hope to gain professional experience with my Computer Science degree and am looking for a software related position upon graduating in May 2024. I am also passionate about my Chinese studies and will graduate with a major in Chinese as well. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.
+
+# Qualifications
+
+### LANGUAGES (ORDERED)
+##### Strong 
+Java: Java Standard Library, data structures <br />
+Python: Pandas, NumPy, Matplotlib
+
+#### Decent 
+JS: Game systems, Phaser3 <br />
+C: For dedicated parallel programming
+
+### TOOLS USED
+
+VSCode, PyCharm, Google Colab, Git, Linux/Bash
+
+### MY INTERESTS / EXPERIENCE
+
+**Machine Learning**: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.
+
+![Decision Tree Model with scikit-learn](images/decisiontree.jpg){width=300}
+
+
+**Parallel Programming**: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers. 
+
+![Testing Data from Examining Different Scalability in Conway's Game of Life](images/scalability.jpg){width=300}
+
+**Chinese Language and Culture**: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.
+
+### THE USUAL CS COURSEWORK
+
+Core Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.
+
+### MY CODING ETHICS/ATTITUDE
+
+Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates. 
+
+Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes.
+
