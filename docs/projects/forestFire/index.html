@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Parallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore version versus using kernel functions to run on GPU. In progress for a fall capstone project.">
 
-<title>Jack Keller - About Me: Professionally Speaking</title>
+<title>Jack Keller - Parallezing a Forest Fire Simulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jack Keller</span>
     </a>
   </div>
@@ -82,15 +82,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">More About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -106,80 +106,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me: Professionally Speaking</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<h1 class="title">Parallezing a Forest Fire Simulation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">CUDA</div>
+    <div class="quarto-category">GPU / OpenACC</div>
+    <div class="quarto-category">Parallel Programming</div>
   </div>
-  
-
-</header>
-
-<p>I’m Jack, a senior Computer Science major at Macalester College. I love to code and I care about the quality of the code I write. I’m looking to work on a team of developers who are serious about software done well. I will be available this summer, after I graduate in May 2024.</p>
-<p>I am also passionate about my Chinese studies and will graduate double majored in Chinese. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.</p>
-<section id="qualifications" class="level1">
-<h1>Qualifications</h1>
-<section id="languages-ordered" class="level3">
-<h3 class="anchored" data-anchor-id="languages-ordered">Languages (Ordered)</h3>
-<section id="strong" class="level5">
-<h5 class="anchored" data-anchor-id="strong">Strong</h5>
-<p>Java: Java Standard Library, data structures <br> Python: Pandas, NumPy, Matplotlib</p>
-</section>
-<section id="decent" class="level4">
-<h4 class="anchored" data-anchor-id="decent">Decent</h4>
-<p>JS: Game systems, Phaser3 <br> C: For dedicated parallel programming</p>
-</section>
-</section>
-<section id="tools-used" class="level3">
-<h3 class="anchored" data-anchor-id="tools-used">TOOLS USED</h3>
-<p>VSCode, PyCharm, Google Colab, Git, Linux/Bash</p>
-</section>
-<section id="my-interests-experience" class="level3">
-<h3 class="anchored" data-anchor-id="my-interests-experience">My Interests / Experience</h3>
-<p><strong>Machine Learning</strong>: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/decisiontree.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Decision Tree Model with scikit-learn</figcaption>
-</figure>
+  </div>
+<div>
+  <div class="description">
+    Parallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore version versus using kernel functions to run on GPU. In progress for a fall capstone project.
+  </div>
 </div>
-<p><strong>Parallel Programming</strong>: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/scalability.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Testing Data from Examining Different Scalability in Conway’s Game of Life</figcaption>
-</figure>
+<div class="quarto-title-meta">
+  </div>
+</header> 
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+
+
+</main></div>
+    </div>
+    <img src="featured.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
 </div>
-<p><strong>Chinese Language and Culture</strong>: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.</p>
-</section>
-<section id="the-usual-cs-coursework" class="level3">
-<h3 class="anchored" data-anchor-id="the-usual-cs-coursework">The Usual CS Coursework</h3>
-<p>Core Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.</p>
-</section>
-<section id="my-coding-ethics-attitude" class="level3">
-<h3 class="anchored" data-anchor-id="my-coding-ethics-attitude">My coding Ethics/ Attitude</h3>
-<p>Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.</p>
-<p>Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes.</p>
-</section>
-<section id="contact-card" class="level3">
-<h3 class="anchored" data-anchor-id="contact-card">Contact Card</h3>
-<p><img src="images/contactcard.png" class="img-fluid" width="300"></p>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -200,13 +156,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

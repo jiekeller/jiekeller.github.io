@@ -1,0 +1,13 @@
+---
+title: "Parallezing a Forest Fire Simulation"
+description: "Parallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore version versus using kernel functions to run on GPU. In progress for a fall capstone project."
+image: featured.png
+categories:
+  - CUDA
+  - GPU / OpenACC
+  - Parallel Programming
+about:
+  template: solana
+  image: featured.png
+---
+

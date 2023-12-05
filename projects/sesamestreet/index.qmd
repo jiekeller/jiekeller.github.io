@@ -1,0 +1,14 @@
+---
+title: "Sesame Street Fighter"
+description: "Local two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic. Completed spring 2024 for a semester long Software Development class. See https://github.com/quangcito/sesame-street-fighter."
+image: featured.png
+categories:
+  - JavaScript
+  - Game Development
+  - Project Experience
+  - HTML
+about:
+  template: solana
+  image: featured.png
+---
+

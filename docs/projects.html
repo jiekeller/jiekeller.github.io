@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jack Keller - About Me: Professionally Speaking</title>
+<title>Jack Keller - Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,12 +61,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -82,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -90,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">More About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
+    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -101,85 +134,171 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Projects</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="BERT">BERT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CUDA">CUDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GPU / OpenACC">GPU / OpenACC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Game Development">Game Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="HTML">HTML <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JavaScript">JavaScript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NLP">NLP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Parallel Programming">Parallel Programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Project Experience">Project Experience <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PyTorch">PyTorch <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Word2Vec">Word2Vec <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About Me: Professionally Speaking</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
   </div>
-  
-
-</header>
-
-<p>I’m Jack, a senior Computer Science major at Macalester College. I love to code and I care about the quality of the code I write. I’m looking to work on a team of developers who are serious about software done well. I will be available this summer, after I graduate in May 2024.</p>
-<p>I am also passionate about my Chinese studies and will graduate double majored in Chinese. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.</p>
-<section id="qualifications" class="level1">
-<h1>Qualifications</h1>
-<section id="languages-ordered" class="level3">
-<h3 class="anchored" data-anchor-id="languages-ordered">Languages (Ordered)</h3>
-<section id="strong" class="level5">
-<h5 class="anchored" data-anchor-id="strong">Strong</h5>
-<p>Java: Java Standard Library, data structures <br> Python: Pandas, NumPy, Matplotlib</p>
-</section>
-<section id="decent" class="level4">
-<h4 class="anchored" data-anchor-id="decent">Decent</h4>
-<p>JS: Game systems, Phaser3 <br> C: For dedicated parallel programming</p>
-</section>
-</section>
-<section id="tools-used" class="level3">
-<h3 class="anchored" data-anchor-id="tools-used">TOOLS USED</h3>
-<p>VSCode, PyCharm, Google Colab, Git, Linux/Bash</p>
-</section>
-<section id="my-interests-experience" class="level3">
-<h3 class="anchored" data-anchor-id="my-interests-experience">My Interests / Experience</h3>
-<p><strong>Machine Learning</strong>: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/decisiontree.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Decision Tree Model with scikit-learn</figcaption>
-</figure>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<p><strong>Parallel Programming</strong>: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/scalability.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Testing Data from Examining Different Scalability in Conway’s Game of Life</figcaption>
-</figure>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="JavaScript,Game Development,Project Experience,HTML" data-listing-file-modified-sort="1701759529068" data-listing-reading-time-sort="1">
+<a href="./projects/sesamestreet/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/sesamestreet/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sesame Street Fighter
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('JavaScript'); return false;">
+JavaScript
 </div>
-<p><strong>Chinese Language and Culture</strong>: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.</p>
-</section>
-<section id="the-usual-cs-coursework" class="level3">
-<h3 class="anchored" data-anchor-id="the-usual-cs-coursework">The Usual CS Coursework</h3>
-<p>Core Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.</p>
-</section>
-<section id="my-coding-ethics-attitude" class="level3">
-<h3 class="anchored" data-anchor-id="my-coding-ethics-attitude">My coding Ethics/ Attitude</h3>
-<p>Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.</p>
-<p>Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes.</p>
-</section>
-<section id="contact-card" class="level3">
-<h3 class="anchored" data-anchor-id="contact-card">Contact Card</h3>
-<p><img src="images/contactcard.png" class="img-fluid" width="300"></p>
+<div class="listing-category" onclick="window.quartoListingCategory('Game Development'); return false;">
+Game Development
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Project Experience'); return false;">
+Project Experience
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('HTML'); return false;">
+HTML
+</div>
+</div>
+<div class="card-text listing-description">
+Local two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic.…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="CUDA,GPU / OpenACC,Parallel Programming" data-listing-file-modified-sort="1701759484219" data-listing-reading-time-sort="1">
+<a href="./projects/forestFire/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/forestFire/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Parallezing a Forest Fire Simulation
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('CUDA'); return false;">
+CUDA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GPU / OpenACC'); return false;">
+GPU / OpenACC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Parallel Programming'); return false;">
+Parallel Programming
+</div>
+</div>
+<div class="card-text listing-description">
+Parallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore version versus using kernel functions to run on GPU. In progress for a…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-</section>
-</section>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Machine Learning,PyTorch,BERT,NLP,Word2Vec" data-listing-file-modified-sort="1701759336529" data-listing-reading-time-sort="1">
+<a href="./projects/resumeScreener/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/resumeScreener/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resume Screening with Word Vectorizing and Cosine Similarity
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PyTorch'); return false;">
+PyTorch
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('BERT'); return false;">
+BERT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('NLP'); return false;">
+NLP
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Word2Vec'); return false;">
+Word2Vec
+</div>
+</div>
+<div class="card-text listing-description">
+Comparing the usage of Python libraries like scikit-learn, BERT, Word2Vec for vectorization of word embeddings and cosine similarity in resume screening. In progress for a…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-</main> <!-- /main -->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
