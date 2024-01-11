@@ -1,0 +1,12 @@
+---
+title: "Digital Poetry Library"
+description: "Building a website with Nanoc and Ruby to house and display my translations of Chinese migrant worker poetry. "
+image: featured.png
+categories:
+  - Ruby
+  - Web Design
+about:
+  template: solana
+  image: featured.png
+---
+
