@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/poetryLibrary/index.html",
       "/projects/sesamestreet/index.html",
       "/projects/forestFire/index.html",
       "/projects/resumeScreener/index.html"
