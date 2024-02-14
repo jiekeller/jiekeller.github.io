@@ -13,6 +13,7 @@ about:
   image: featured.png
   
 ---
+{{< pdf paper.pdf >}} 
 
 
 
