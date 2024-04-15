@@ -6,6 +6,7 @@ categories:
   - CUDA
   - GPU / OpenACC
   - Parallel Programming
+  - OpenMP
 about:
   template: solana
   image: featured.png
