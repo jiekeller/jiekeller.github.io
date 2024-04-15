@@ -1,6 +1,6 @@
 ---
 title: "Digital Poetry Library"
-description: "Building a website with Nanoc and Ruby to house and display my translations of Chinese migrant worker poetry. "
+description: "Building a website with Nanoc to house and display my translations of Chinese migrant worker poetry. Repo can be found here: https://github.com/jiekeller/ind.study."
 image: featured.png
 categories:
   - Ruby
