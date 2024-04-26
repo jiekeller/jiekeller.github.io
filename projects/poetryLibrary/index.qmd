@@ -1,10 +1,13 @@
 ---
 title: "Digital Poetry Library"
-description: "Building a website with Nanoc to house and display my translations of Chinese migrant worker poetry. Repo can be found here: https://github.com/jiekeller/ind.study/ & website can be found here: https://jiekeller.github.io/ind.study/."
+description: "Building a website with Nanoc to house and display my translations of Chinese migrant worker poetry. Practiced a lot of CSS and HTML formatting for this. Repo can be found here: https://github.com/jiekeller/ind.study/ & website can be found here: https://jiekeller.github.io/ind.study/."
 image: featured.png
 categories:
   - Nanoc
+  - Static Site Generators
   - Web Design
+  - CSS
+  - HTML
 about:
   template: solana
   image: featured.png
