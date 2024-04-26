@@ -25,7 +25,7 @@ VSCode, PyCharm, Google Colab, Git, Linux/Bash
 **Machine Learning**: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.
 
 ![Decision Tree Model with scikit-learn](images/decisiontree.jpg){width=300}
-
+**Artificial Intelligence**: Experience with Microsoft Autogen, experimenting with multiple AI agents. Applying three agent, group-chat dynamic to a conversation on NBA player value.
 
 **Parallel Programming**: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers. 
 
