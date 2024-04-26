@@ -1,0 +1,18 @@
+---
+title: "Robot Conversations about NBA Players with Microsoft Autogen"
+description: "A really cool project done for a senior capstone class, using Microsoft Autogen, NBA statistics from basketball-reference and the Reddit API to create a multi-agent framework dedicated to valuing NBA players in the MVP race."
+image: featured.png
+categories:
+  - Artificial Intelligence
+  - Sentiment Analysis
+  - API Scraping
+  - Data Science
+about:
+  template: solana
+  image: featured.png
+  
+---
+
+
+
+
