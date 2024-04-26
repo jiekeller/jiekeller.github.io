@@ -11,7 +11,35 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDigital Poetry Library\n\n\n\nNanoc\n\n\nStatic Site Generators\n\n\nWeb Design\n\n\nCSS\n\n\nHTML\n\n\n\nBuilding a website with Nanoc to house and display my translations of Chinese migrant worker poetry. Practiced a lot of CSS and HTML formatting for this. Repo can be found…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSesame Street Fighter\n\n\n\nJavaScript\n\n\nGame Development\n\n\nProject Experience\n\n\nHTML\n\n\n\nLocal two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic.…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParallezing a Forest Fire Simulation\n\n\n\nCUDA\n\n\nGPU / OpenACC\n\n\nParallel Programming\n\n\nOpenMP\n\n\n\nParallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore and openmp versions versus using kernel functions run on GPU. Solo…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot Conversations about NBA Players with Microsoft Autogen\n\n\n\nArtificial Intelligence\n\n\nSentiment Analysis\n\n\nAPI Scraping\n\n\nData Science\n\n\n\nA really fun partner project done for a senior capstone class, using Microsoft Autogen, NBA statistics from basketball-reference and the Reddit API to create a multi-agent…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResume Screening with Word Vectorizing and Cosine Similarity\n\n\n\nMachine Learning\n\n\nPyTorch\n\n\nBERT\n\n\nNLP\n\n\nWord2Vec\n\n\n\nComparing the usage of Python libraries like scikit-learn, BERT, Word2Vec for vectorization of word embeddings and cosine similarity in resume screening. Completed for a…\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSesame Street Fighter\n\n\n\nJavaScript\n\n\nGame Development\n\n\nProject Experience\n\n\nHTML\n\n\n\nLocal two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic.…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot Conversations about NBA Players with Microsoft Autogen\n\n\n\nArtificial Intelligence\n\n\nSentiment Analysis\n\n\nAPI Scraping\n\n\nData Science\n\n\n\nA really fun partner project done for a senior capstone class, using Microsoft Autogen, NBA statistics from basketball-reference and the Reddit API to create a multi-agent…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResume Screening with Word Vectorizing and Cosine Similarity\n\n\n\nMachine Learning\n\n\nPyTorch\n\n\nBERT\n\n\nNLP\n\n\nWord2Vec\n\n\n\nPartner project comparing the word vectorization and cosine similarity of various python libraries with resume screening.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParallezing a Forest Fire Simulation\n\n\n\nCUDA\n\n\nGPU / OpenACC\n\n\nParallel Programming\n\n\nOpenMP\n\n\n\nParallezing and experimenting with scalability for a forest fire simulation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigital Poetry Library\n\n\n\nNanoc\n\n\nStatic Site Generators\n\n\nWeb Design\n\n\nCSS\n\n\nHTML\n\n\n\nBuilding a website with Nanoc to house and display my translations of Chinese migrant worker poetry.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/NBAautogen/index.html",
+    "href": "projects/NBAautogen/index.html",
+    "title": "Robot Conversations about NBA Players with Microsoft Autogen",
+    "section": "",
+    "text": "Used a group-chat dynamic, with a sentiment analysis agent (using tools for Reddit data), a statistician (using tools for basketball-reference data) and a third ‘Critic’ role to analyze player value. Partner handled basketball-reference data scraping and creating classes for each player, I handled getting comments from reddit API, conducting sentiment analysis and setting up Autogen. Link to our presentation can be found here: https://docs.google.com/presentation/d/1MQmrhFRy8WjoMnQqr2iWDYENgmf2MIFrTpMnWnYKfLA/edit?usp=sharing. Link to google colab file here as well: https://colab.research.google.com/drive/1kf0T0eP569OdY5-dTM78m4ZJZ6aNBMP9?usp=sharing. We’re still tinkering with the model!"
+  },
+  {
+    "objectID": "projects/poetryLibrary/index.html",
+    "href": "projects/poetryLibrary/index.html",
+    "title": "Digital Poetry Library",
+    "section": "",
+    "text": "Practiced a lot of CSS and HTML formatting for project. Website holds forty four of my translated poems, research conducted with the support of the Mellon Mays Fellowship. Repo can be found here: https://github.com/jiekeller/ind.study/ & website can be found here: https://jiekeller.github.io/ind.study/.”"
+  },
+  {
+    "objectID": "projects/forestFire/index.html",
+    "href": "projects/forestFire/index.html",
+    "title": "Parallezing a Forest Fire Simulation",
+    "section": "",
+    "text": "Comparing pgcc multicore and openmp versions versus using kernel functions run on GPU. Solo project completed for a fall senior capstone. This project demonstrated just how much more efficiently this kind of simulation can be done using the manycore GPU."
+  },
+  {
+    "objectID": "projects/resumeScreener/index.html",
+    "href": "projects/resumeScreener/index.html",
+    "title": "Resume Screening with Word Vectorizing and Cosine Similarity",
+    "section": "",
+    "text": "Examined many interesting vectorization methods like scikit-learn, BERT, and Word2Vec. Handled pretty much all of the code writing, most of the difficulty in this project came from understanding how and what tools to use for BERT and Word2Vec. Completed for a 2023 fall capstone project, pdf of paper will be provided soon!"
   },
   {
     "objectID": "index.html",

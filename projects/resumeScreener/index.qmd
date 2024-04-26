@@ -1,6 +1,6 @@
 ---
 title: "Resume Screening with Word Vectorizing and Cosine Similarity"
-description: "Comparing the usage of Python libraries like scikit-learn, BERT, Word2Vec for vectorization of word embeddings and cosine similarity in resume screening. Completed for a 2023 fall capstone project."
+description: "Partner project comparing the word vectorization and cosine similarity of various python libraries with resume screening."
 image: featured.png
 categories:
   - Machine Learning
@@ -13,7 +13,7 @@ about:
   image: featured.png
   
 ---
-{{< pdf paper.pdf >}} 
 
+Examined many interesting vectorization methods like scikit-learn, BERT, and Word2Vec. Handled pretty much all of the code writing, most of the difficulty in this project came from understanding how and what tools to use for BERT and Word2Vec. Completed for a 2023 fall capstone project, pdf of paper will be provided soon!
 
 

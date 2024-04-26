@@ -1,6 +1,6 @@
 ---
 title: "Parallezing a Forest Fire Simulation"
-description: "Parallezing and experimenting with scalability for a forest fire simulation. Comparing pgcc multicore  and openmp versions versus using kernel functions run on GPU. Solo project completed for a fall senior capstone."
+description: "Parallezing and experimenting with scalability for a forest fire simulation."
 image: featured.png
 categories:
   - CUDA
@@ -12,3 +12,4 @@ about:
   image: featured.png
 ---
 
+Comparing pgcc multicore and openmp versions versus using kernel functions run on GPU. Solo project completed for a fall senior capstone. This project demonstrated just how much more efficiently this kind of simulation can be done using the manycore GPU.

@@ -2,7 +2,7 @@
 title: "Projects"
 listing:
   contents: projects
-  sort: "date"
+  sort: "title desc"
   type: grid
   categories: true
   sort-ui: true
