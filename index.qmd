@@ -1,9 +1,9 @@
 ---
 title: "About Me: Professionally Speaking"
 ---
-I'm Jack, a senior Computer Science major at Macalester College. I love to code and I care about the quality of the code I write. I'm looking to work on a team of developers who are serious about software done well. I will be available this summer, after I graduate in May 2024. 
+I'm Jack, recent graduate Software Engineer working on the on-premises migration Integration Team at CNA Insurance. I love to code and I care about the quality of the code I write. I'm looking to work on a team of developers who are serious about software done well. 
 
-I am also passionate about my Chinese studies and will graduate double majored in Chinese. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.
+I am also passionate about my Chinese studies and will graduate double majored in Chinese. I spent the last two years of college conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.
 
 # Qualifications
 
@@ -19,6 +19,7 @@ C: For dedicated parallel programming
 ### TOOLS USED
 
 VSCode, PyCharm, Google Colab, Git, Linux/Bash
+
 
 ### My Interests / Experience
 
@@ -42,7 +43,7 @@ Core Concepts in CS, Object Oriented Programming, Data Structures, Computer Syst
 
 Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates. 
 
-Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes.
+Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes. As I have entered the professional world of coding, I especially like to emphasize this for scalability and efficiency.
 
 ### Contact Card
 
