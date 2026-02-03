@@ -1,39 +1,44 @@
 ---
 title: "About Me: Professionally Speaking"
 ---
-I'm Jack, recent graduate Software Engineer working on the on-premises migration Integration Team at CNA Insurance. I love to code and I care about the quality of the code I write. I'm looking to work on a team of developers who are serious about software done well. 
 
-I am also passionate about my Chinese studies and will graduate double majored in Chinese. I spent the last two years of college conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.
+I'm Jack, recent graduate Software Engineer working on the on-premises migration integration team at CNA Insurance. I love to code and I care about the quality of the code I write. I'm looking to work on a team of developers who are serious about software done well.
+
+I am also passionate about my Chinese studies and graduated with a double major in Chinese and CS. I spent the last two years of college conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.
 
 # Qualifications
 
 ### Languages (Ordered)
-##### Strong 
-Java: Java Standard Library, data structures <br />
-Python: Pandas, NumPy, Matplotlib
 
-#### Decent 
-JS: Game systems, Phaser3 <br />
-C: For dedicated parallel programming
+##### Strong
 
-### TOOLS USED
+Java: Java Standard Library, data structures <br /> Python: Pandas, NumPy, Matplotlib
+
+#### Decent
+
+JS: Game systems, Phaser3 <br /> C: For dedicated parallel programming
+
+### TOOLS USED (ACADEMICALLY)
 
 VSCode, PyCharm, Google Colab, Git, Linux/Bash
 
+### TOOLS USED (PROFESSIONALLY)
 
-### My Interests / Experience
+Guidewire, Gosu, Integration Gateway, Postman, DataDog, Git
+
+### My Interests / Academic Experience
 
 **Machine Learning**: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.
 
-![Decision Tree Model with scikit-learn](images/decisiontree.jpg){width=300}
+![Decision Tree Model with scikit-learn](images/decisiontree.jpg){width="300"}
 
 **Artificial Intelligence**: Experience with Microsoft Autogen, experimenting with multiple AI agents. Applying three agent, group-chat dynamic to a conversation on NBA player value.
 
-**Parallel Programming**: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers. 
+**Parallel Programming**: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.
 
-![Testing Data from Examining Different Scalability in Conway's Game of Life](images/scalability.jpg){width=300}
+![Testing Data from Examining Different Scalability in Conway's Game of Life](images/scalability.jpg){width="300"}
 
-**Chinese Language and Culture**: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.
+**Chinese Language and Culture**: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I researched and translated 50 Chinese migrant worker poems and presented on this work as an undergrad student.
 
 ### The Usual CS Coursework
 
@@ -41,12 +46,10 @@ Core Concepts in CS, Object Oriented Programming, Data Structures, Computer Syst
 
 ### My coding Ethics/ Attitude
 
-Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates. 
+Enabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.
 
 Testing: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes. As I have entered the professional world of coding, I especially like to emphasize this for scalability and efficiency.
 
 ### Contact Card
 
-![](images/contactcard.png){width=300}
-
-
+![](images/contactcard.jpg){width="300"}

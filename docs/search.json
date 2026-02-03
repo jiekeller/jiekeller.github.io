@@ -1,38 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "More About Me",
-    "section": "",
-    "text": "I am an avid frisbee player and restarted the men’s team at Macalester. I am currently President of the ultimate team and spend many hours leading/organizing the team. Besides frisbee, I also enjoy playing basketball, volleyball and soccer in my free time.\n\n\n\nMe Playing Ultimate"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSesame Street Fighter\n\n\n\nJavaScript\n\n\nGame Development\n\n\nProject Experience\n\n\nHTML\n\n\n\nLocal two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic.…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot Conversations about NBA Players with Microsoft Autogen\n\n\n\nArtificial Intelligence\n\n\nSentiment Analysis\n\n\nAPI Scraping\n\n\nData Science\n\n\n\nA really fun partner project done for a senior capstone class, using Microsoft Autogen, NBA statistics from basketball-reference and the Reddit API to create a multi-agent…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResume Screening with Word Vectorizing and Cosine Similarity\n\n\n\nMachine Learning\n\n\nPyTorch\n\n\nBERT\n\n\nNLP\n\n\nWord2Vec\n\n\n\nPartner project comparing the word vectorization and cosine similarity of various python libraries with resume screening.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParallezing a Forest Fire Simulation\n\n\n\nCUDA\n\n\nGPU / OpenACC\n\n\nParallel Programming\n\n\nOpenMP\n\n\n\nParallezing and experimenting with scalability for a forest fire simulation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigital Poetry Library\n\n\n\nNanoc\n\n\nStatic Site Generators\n\n\nWeb Design\n\n\nCSS\n\n\nHTML\n\n\n\nBuilding a website with Nanoc to house and display my translations of Chinese migrant worker poetry.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/NBAautogen/index.html",
-    "href": "projects/NBAautogen/index.html",
-    "title": "Robot Conversations about NBA Players with Microsoft Autogen",
-    "section": "",
-    "text": "Used a group-chat dynamic, with a sentiment analysis agent (using tools for Reddit data), a statistician (using tools for basketball-reference data) and a third ‘Critic’ role to analyze player value. Partner handled basketball-reference data scraping and creating classes for each player, I handled getting comments from reddit API, conducting sentiment analysis and setting up Autogen. Link to our presentation can be found here: https://docs.google.com/presentation/d/1MQmrhFRy8WjoMnQqr2iWDYENgmf2MIFrTpMnWnYKfLA/edit?usp=sharing. Link to google colab file here as well: https://colab.research.google.com/drive/1kf0T0eP569OdY5-dTM78m4ZJZ6aNBMP9?usp=sharing. We’re still tinkering with the model!"
-  },
-  {
-    "objectID": "projects/poetryLibrary/index.html",
-    "href": "projects/poetryLibrary/index.html",
-    "title": "Digital Poetry Library",
-    "section": "",
-    "text": "Practiced a lot of CSS and HTML formatting for project. Website holds forty four of my translated poems, research conducted with the support of the Mellon Mays Fellowship. Repo can be found here: https://github.com/jiekeller/ind.study/ & website can be found here: https://jiekeller.github.io/ind.study/.”"
-  },
-  {
-    "objectID": "projects/forestFire/index.html",
-    "href": "projects/forestFire/index.html",
-    "title": "Parallezing a Forest Fire Simulation",
-    "section": "",
-    "text": "Comparing pgcc multicore and openmp versions versus using kernel functions run on GPU. Solo project completed for a fall senior capstone. This project demonstrated just how much more efficiently this kind of simulation can be done using the manycore GPU."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSesame Street Fighter\n\n\n\nJavaScript\n\nGame Development\n\nProject Experience\n\nHTML\n\n\n\nLocal two person 2D fighter game built using the Phaser 3 game engine and written in Javascript. Handled attack and collision interaction as well as win/lose logic.…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot Conversations about NBA Players with Microsoft Autogen\n\n\n\nArtificial Intelligence\n\nSentiment Analysis\n\nAPI Scraping\n\nData Science\n\n\n\nA really fun partner project done for a senior capstone class, using Microsoft Autogen, NBA statistics from basketball-reference and the Reddit API to create a multi-agent…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResume Screening with Word Vectorizing and Cosine Similarity\n\n\n\nMachine Learning\n\nPyTorch\n\nBERT\n\nNLP\n\nWord2Vec\n\n\n\nPartner project comparing the word vectorization and cosine similarity of various python libraries with resume screening.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParallezing a Forest Fire Simulation\n\n\n\nCUDA\n\nGPU / OpenACC\n\nParallel Programming\n\nOpenMP\n\n\n\nParallezing and experimenting with scalability for a forest fire simulation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigital Poetry Library\n\n\n\nNanoc\n\nStatic Site Generators\n\nWeb Design\n\nCSS\n\nHTML\n\n\n\nBuilding a website with Nanoc to house and display my translations of Chinese migrant worker poetry.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/resumeScreener/index.html",
@@ -42,10 +14,38 @@
     "text": "Examined many interesting vectorization methods like scikit-learn, BERT, and Word2Vec. Handled pretty much all of the code writing, most of the difficulty in this project came from understanding how and what tools to use for BERT and Word2Vec. Completed for a 2023 fall capstone project, pdf of paper will be provided soon!"
   },
   {
+    "objectID": "projects/NBAautogen/index.html",
+    "href": "projects/NBAautogen/index.html",
+    "title": "Robot Conversations about NBA Players with Microsoft Autogen",
+    "section": "",
+    "text": "Used a group-chat dynamic, with a sentiment analysis agent (using tools for Reddit data), a statistician (using tools for basketball-reference data) and a third ‘Critic’ role to analyze player value. Partner handled basketball-reference data scraping and creating classes for each player, I handled getting comments from reddit API, conducting sentiment analysis and setting up Autogen. Link to our presentation can be found here: https://docs.google.com/presentation/d/1MQmrhFRy8WjoMnQqr2iWDYENgmf2MIFrTpMnWnYKfLA/edit?usp=sharing. Link to google colab file here as well: https://colab.research.google.com/drive/1kf0T0eP569OdY5-dTM78m4ZJZ6aNBMP9?usp=sharing. We’re still tinkering with the model!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me: Professionally Speaking",
     "section": "",
-    "text": "I’m Jack, a senior Computer Science major at Macalester College. I love to code and I care about the quality of the code I write. I’m looking to work on a team of developers who are serious about software done well. I will be available this summer, after I graduate in May 2024.\nI am also passionate about my Chinese studies and will graduate double majored in Chinese. I have spent the past two years conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.\n\nQualifications\n\nLanguages (Ordered)\n\nStrong\nJava: Java Standard Library, data structures  Python: Pandas, NumPy, Matplotlib\n\n\nDecent\nJS: Game systems, Phaser3  C: For dedicated parallel programming\n\n\n\nTOOLS USED\nVSCode, PyCharm, Google Colab, Git, Linux/Bash\n\n\nMy Interests / Experience\nMachine Learning: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.\n\n\n\nDecision Tree Model with scikit-learn\n\n\nArtificial Intelligence: Experience with Microsoft Autogen, experimenting with multiple AI agents. Applying three agent, group-chat dynamic to a conversation on NBA player value.\nParallel Programming: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.\n\n\n\nTesting Data from Examining Different Scalability in Conway’s Game of Life\n\n\nChinese Language and Culture: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I continue to research and translate Chinese migrant worker poetry with the hope of publishing my work in Spring 2024.\n\n\nThe Usual CS Coursework\nCore Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.\n\n\nMy coding Ethics/ Attitude\nEnabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.\nTesting: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes.\n\n\nContact Card"
+    "text": "I’m Jack, recent graduate Software Engineer working on the on-premises migration integration team at CNA Insurance. I love to code and I care about the quality of the code I write. I’m looking to work on a team of developers who are serious about software done well.\nI am also passionate about my Chinese studies and graduated with a double major in Chinese and CS. I spent the last two years of college conducting research on Chinese migrant worker poetry with the support of the Mellon Mays foundation.\n\nQualifications\n\nLanguages (Ordered)\n\nStrong\nJava: Java Standard Library, data structures  Python: Pandas, NumPy, Matplotlib\n\n\nDecent\nJS: Game systems, Phaser3  C: For dedicated parallel programming\n\n\n\nTOOLS USED (ACADEMICALLY)\nVSCode, PyCharm, Google Colab, Git, Linux/Bash\n\n\nTOOLS USED (PROFESSIONALLY)\nGuidewire, Gosu, Integration Gateway, Postman, DataDog, Git\n\n\nMy Interests / Academic Experience\nMachine Learning: Applying learning models to a large-corpus of data such as random forest, gradient-boost, ADAboost. Experience with libraries such as SKLearn, Tensor-Flow, PyTorch and BERT.\n\n\n\nDecision Tree Model with scikit-learn\n\n\nArtificial Intelligence: Experience with Microsoft Autogen, experimenting with multiple AI agents. Applying three agent, group-chat dynamic to a conversation on NBA player value.\nParallel Programming: OpenMP / MPI / OpenACC parallezing in C using gcc and pgcc compilers.\n\n\n\nTesting Data from Examining Different Scalability in Conway’s Game of Life\n\n\nChinese Language and Culture: I am fluent in Mandarin and have studied in Taiwan and mainland China. With the Mellon-Mays Fellowship I researched and translated 50 Chinese migrant worker poems and presented on this work as an undergrad student.\n\n\nThe Usual CS Coursework\nCore Concepts in CS, Object Oriented Programming, Data Structures, Computer Systems, Software Development, Discrete Mathematics, Algorithm Design / Analysis, Parallel Programming and Intro to AI.\n\n\nMy coding Ethics/ Attitude\nEnabling the team: When I write my code, I pay attention to who may need to read and understand my code, considering how I can provide psuedo-code and friendly variable names to make my code easy for others to utilize. I highly value communication with project mates.\nTesting: When I build software, I think about the correctness of the code and I generate unit tests as I go to make the code resilient to future changes. As I have entered the professional world of coding, I especially like to emphasize this for scalability and efficiency.\n\n\nContact Card"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "More About Me",
+    "section": "",
+    "text": "I am an avid frisbee player and restarted the men’s team at Macalester College. I was President and captain of the ultimate team for three years and dedicated many hours to developing the team.\n\n\n\nMe Playing Ultimate\n\n\nSince graduating, I have become a triathlete and will be competing in nationals this year in Milwaukee.\n\n\n\nFinishing the Chicago Triathlon"
+  },
+  {
+    "objectID": "projects/forestFire/index.html",
+    "href": "projects/forestFire/index.html",
+    "title": "Parallezing a Forest Fire Simulation",
+    "section": "",
+    "text": "Comparing pgcc multicore and openmp versions versus using kernel functions run on GPU. Solo project completed for a fall senior capstone. This project demonstrated just how much more efficiently this kind of simulation can be done using the manycore GPU."
+  },
+  {
+    "objectID": "projects/poetryLibrary/index.html",
+    "href": "projects/poetryLibrary/index.html",
+    "title": "Digital Poetry Library",
+    "section": "",
+    "text": "Practiced a lot of CSS and HTML formatting for project. Website holds forty four of my translated poems, research conducted with the support of the Mellon Mays Fellowship. Repo can be found here: https://github.com/jiekeller/ind.study/ & website can be found here: https://jiekeller.github.io/ind.study/.”"
   }
 ]

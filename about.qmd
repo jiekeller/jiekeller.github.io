@@ -2,8 +2,10 @@
 title: "More About Me"
 ---
 
-
-I am an avid frisbee player and restarted the men's team at Macalester. I am currently President of the ultimate team and spend many hours leading/organizing the team. Besides frisbee, I also enjoy playing basketball, volleyball and soccer in my free time. 
+I am an avid frisbee player and restarted the men's team at Macalester College. I was President and captain of the ultimate team for three years and dedicated many hours to developing the team.
 
 ![Me Playing Ultimate](images/frisbee.jpg)
 
+Since graduating, I have become a triathlete and will be competing in nationals this year in Milwaukee.
+
+![Finishing the Chicago Triathlon](images/chitri.jpg)
