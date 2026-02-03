@@ -1,6 +1,6 @@
 ---
-title: "Parallezing a Forest Fire Simulation"
-description: "Parallezing and experimenting with scalability for a forest fire simulation."
+title: "Parallelizing a Forest Fire Simulation"
+description: "Parallelizing and experimenting with scalability for a forest fire simulation."
 image: featured.png
 categories:
   - CUDA
